@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carshop-About us</title>
+  <link rel="stylesheet" type="text/css" href="css/general.css">
+</head>
+<body>
+
+<div id="container">
+  <div style="background-color: papayawhip;">
+    <h1>Carshop</h1>
+    <h2>Contact Us</h2>
+  </div>
+
+  <hr>
+
+  <nav>
+    <a class="menu_link" href="index.html">Home</a>
+    <a class="menu_link" href="products.html">Products</a>
+    <a class="menu_link" href="about_us.html">About Us</a>
+    <a class="menu_link" href="contact_us.html">Contact Us</a>
+  </nav>
+
+  <hr>
+
+  <form>
+    <label for="firstname">First name: </label>
+    <input type="text" id="firstname" name="firstname" placeholder="First name">
+
+    <label for="lasttname">Last name: </label>
+    <input type="text"  name="lasttname" placeholder="Last name">
+    
+    <br>
+    <label for="password">Password: </label>
+    <input type="password" name="password" required>
+
+    <br>
+    <label for="birthday">Birthday: </label>
+    <input type="date" name="birthday">
+
+    <br>
+
+    <label for="email">Email addres: </label>
+    <input type="email" name="email">
+
+    <br>
+    <label for="age">Age: </label>
+    <input type="number" name="age" min="0" max="120">
+
+    <br>
+
+    <label for="message">Message for carshop company:</label>
+    <textarea name="message">Thie is a comment.</textarea>
+
+    <br>
+
+    Contact classification
+
+    <br>
+    
+    <input type="radio" value="suggestion" name="message_type">
+    <label for="message_type">Suggestion</label>
+    
+    <br>
+    
+    <input type="radio" value="inquiry" name="message_type">
+    <label for="message_type">Inquiry</label>
+    
+    <br>
+    
+    <input type="radio" value="booking" name="message_type">
+    <label for="message_type">Booking</label>
+
+    <br>
+    Products to inquire:
+    <br>
+    <input type="checkbox" name="product" calue="Toyota">
+    <label for="product">Toyota</label>
+
+    <br>
+    <input type="checkbox" name="product" calue="nissan">
+    <label for="product">nissan</label>
+   
+    <br>
+    <input type="checkbox" name="product" calue="car_services">
+    <label for="product">Car Services</label>
+    
+    <br>
+    <br>
+    Country of residence
+    <br>
+    <select name="country_of_residence">
+      <option value="argentina">Argentina</option>
+      <option value="brazil">Brazil</option>
+      <option value="japan">Japan</option>
+      <option value="philippines">Philippines</option>
+      <option value="usa">USA</option>
+    </select>
+    
+    <br>
+    <br>
+    <br>
+    Country of interest
+    <br>
+    <select name="country_of_interest" multiple>
+      <option value="argentina">Argentina</option>
+      <option value="brazil">Brazil</option>
+      <option value="japan">Japan</option>
+      <option value="philippines">Philippines</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <br>
+    <label for="attachment">File upload</label>
+    <input type="file" name="attachment_file">
+
+    <br>
+    <input type="image" src="images/greenbutton.png">
+
+    <br>
+    <input type="button" value="Click Me">
+
+
+
+  </form>
+</div>
+
+  
+</body>
+</html>
